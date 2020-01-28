@@ -13,6 +13,8 @@ export class TodosComponent implements OnInit {
   
   private loading: boolean = true;
 
+  private searchString: string = '';
+
   constructor(private todosService: TodoService) {
     
   }
