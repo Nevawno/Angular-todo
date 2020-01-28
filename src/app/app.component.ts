@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Todos } from './shared/todos.service';
 
 
 @Component({
@@ -7,7 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  appTitle = 'Angular toto application';
+    appTitle = 'Angular toto application';
+
+
 }
 
 
